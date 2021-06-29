@@ -4,16 +4,33 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+p {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.button {
+  padding: 10px 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #FEC63E;
+  letter-spacing: .1em;
+  line-height: 20px;
+  font-size: 14px;
+  border: 3px solid #FEC63E;
+  transition: .3s;
+}
+
 /* Header */
 .header {
   width: 100%;
   height: 80px;
   padding: 10px 0;
   background-color: #FEC63E;
-}
-
-.logo {
-
+  position: fixed;
+  top: 0;
+  z-index: 999;
 }
 
 .header_menu {
@@ -45,7 +62,9 @@ body {
 
 .introducao {
   text-align: center;
+  width: 100%;
   height: 380px;
+  margin-top: 80px;
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -60,43 +79,29 @@ body {
   margin-top: 80px;
 }
 
-.borda {
-  width: 70px;
-  height: 3px;
-  margin: 15px auto;
-  background-color: #fff;
-}
-
-.quote {
+.quote-externo {
   width: 280px;
   font-size: 14px;
   font-style: italic;
   line-height: 20px;
   color: #fff;
-  margin: auto;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 40px auto;
 }
 
-.quote-author {
-  color: #fff;
-  font-weight: bold;
-  letter-spacing: .1em;
-  font-size: 14px;
-  text-transform: uppercase;
-}
-
-.button {
+.quote-externo p:before, .quote-externo p:after {
+  content: " ";
   display: block;
-  width: 170px;
-  padding: 10px 0;
-  margin: 30px auto;
+  width: 80px;
+  height: 3px;
+  margin: 14px auto 10px auto;
+  background-color: #fff;
+}
+
+.quote-externo cite {
   font-weight: bold;
-  text-transform: uppercase;
-  color: #FEC63E;
+  font-style: normal;
   letter-spacing: .1em;
-  font-size: 14px;
-  border: 4px solid #FEC63E;
-  transition: .3s;
+  text-transform: uppercase;
 }
 
 .button:hover {
@@ -119,28 +124,89 @@ body {
   font-weight: bold;
 }
 
-.borda-black {
+.quote-subtitulo h2:after {
+  content: "";
+  display: block;
   width: 70px;
   height: 3px;
   margin: 15px auto;
   background-color: #000;
 }
+
 .cards {
   margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .card {
   height: 306px;
-  background-color: blue;
+  background-color: #000;
 }
+
+.card .passeio-icon {
+  width: 100%;
+  height: 207px;
+  background: url('../img/produtos/icones/passeio.svg') no-repeat center;
+}
+
+.card .passeio-desc {
+  width: 100%;
+  height: 100px;
+  background-color: #FEC63E;
+}
+
+.card .passeio-desc h2 {
+  text-align: center;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 0 0 0;
+}
+
+.card .passeio-desc h2:after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  margin: 5px auto;
+  background-color: #000;
+}
+
+.card .passeio-desc p {
+  max-width: 180px;
+  margin: auto;
+}
+
+.card .esporte-icon {
+  width: 100%;
+  height: 207px;
+  background: url('../img/produtos/icones/esporte.svg') no-repeat center;
+}
+
+.card .retro-icon {
+  width: 100%;
+  height: 207px;
+  background: url('../img/produtos/icones/retro.svg') no-repeat center;
+}
+
+
+
+
+
+
+
+
 
 .quote-saiba-mais {
   text-align: center;
+  padding: 40px 0;
+  clear: both;
 }
 
 .quote-saiba-mais .desc {
-  display: inline-block;
-  margin-top: 40px;
+  display: block;
+  margin-bottom: 40px;
 }
 
 .quote-saiba-mais .button {
@@ -177,6 +243,7 @@ body {
 .bg-intro {
   text-align: center;
   height: 160px;
+  margin-top: 80px;
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
