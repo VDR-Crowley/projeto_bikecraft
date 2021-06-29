@@ -103,3 +103,117 @@ body {
   color: #FFF;
   border-color: #FFF;
 }
+
+
+/* seção produtos */
+
+.quote-subtitulo {
+  font-size: 24px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.quote-subtitulo h2 {
+  font-weight: bold;
+}
+
+.borda-black {
+  width: 70px;
+  height: 3px;
+  margin: 15px auto;
+  background-color: #000;
+}
+.cards {
+  margin-top: 40px;
+}
+
+.card {
+  height: 306px;
+  background-color: blue;
+}
+
+.quote-saiba-mais {
+  text-align: center;
+}
+
+.quote-saiba-mais .desc {
+  display: inline-block;
+  margin-top: 40px;
+}
+
+.quote-saiba-mais .button {
+  margin: 20px auto;
+  font-weight: bold;
+}
+
+.quote-saiba-mais a:hover.button-black {
+  color: #000;
+  border-color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Pagina Sobre */
+
+.bg-intro {
+  text-align: center;
+  height: 160px;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.sobre-img {
+  background-image: url('../img/bgs/bg-sobre.jpg');  
+}
+
+.produtos-img {
+  background-image: url('../img/bgs/bg-produtos.jpg');  
+}
+
+.portfolio-img {
+  background-image: url('../img/bgs/bg-portfolio.jpg');  
+}
+
+.contato-img {
+  background-image: url('../img/bgs/bg-contato.jpg');  
+}
+/*
+.sobre-img {
+  background-image: url('../img/bgs/bg-sobre.jpg');  
+}*/
+
+.bg-intro h1 {
+  font-size: 48px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.quote-intro {
+  width: 280px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+  margin: auto;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
