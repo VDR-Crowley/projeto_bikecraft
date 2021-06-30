@@ -22,6 +22,17 @@ p {
   transition: .3s;
 }
 
+.call-to-action .button {
+  margin: 20px auto;
+  font-weight: bold;
+}
+
+.call-to-action .button.button-black:hover {
+  color: #000;
+  border-color: #000;
+}
+
+
 /* Header */
 .header {
   width: 100%;
@@ -85,7 +96,7 @@ p {
   font-style: italic;
   line-height: 20px;
   color: #fff;
-  margin: 40px auto;
+  margin: 20px auto 40px;
 }
 
 .quote-externo p:before, .quote-externo p:after {
@@ -114,6 +125,7 @@ p {
 
 .quote-subtitulo {
   font-size: 24px;
+  line-height: 30px;
   letter-spacing: .1em;
   text-transform: uppercase;
   text-align: center;
@@ -133,7 +145,7 @@ p {
   background-color: #000;
 }
 
-.cards {
+.produtos_lista {
   margin-top: 40px;
   margin-bottom: 40px;
 }
@@ -141,6 +153,10 @@ p {
 .card {
   height: 306px;
   background-color: #000;
+}
+
+.card a {
+  color: #000;
 }
 
 .card .passeio-icon {
@@ -155,7 +171,7 @@ p {
   background-color: #FEC63E;
 }
 
-.card .passeio-desc h2 {
+.card .passeio-desc h3 {
   text-align: center;
   font-size: 18px;
   line-height: 24px;
@@ -164,7 +180,7 @@ p {
   padding: 10px 0 0 0;
 }
 
-.card .passeio-desc h2:after {
+.card .passeio-desc h3:after {
   content: "";
   display: block;
   width: 50px;
@@ -174,8 +190,9 @@ p {
 }
 
 .card .passeio-desc p {
-  max-width: 180px;
+  max-width: 220px;
   margin: auto;
+  text-align: center;
 }
 
 .card .esporte-icon {
@@ -190,33 +207,42 @@ p {
   background: url('../img/produtos/icones/retro.svg') no-repeat center;
 }
 
-
-
-
-
-
-
-
-
-.quote-saiba-mais {
+.call-to-action {
   text-align: center;
   padding: 40px 0;
+  margin-top: 40px;
+  margin-bottom: 40px;
   clear: both;
 }
 
-.quote-saiba-mais .desc {
+.call-to-action .desc {
   display: block;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
-.quote-saiba-mais .button {
-  margin: 20px auto;
-  font-weight: bold;
+
+/* Portfólio */
+
+.secao-black {
+  width: 100%;
+  color: white;
+  background-color: black;
 }
 
-.quote-saiba-mais a:hover.button-black {
-  color: #000;
-  border-color: #000;
+.secao-black .quote-subtitulo h2 {
+  color: #FEC63E;
+}
+
+.secao-black .quote-subtitulo h2:after {
+  background-color: #FEC63E;
+}
+
+.galeria {
+  margin: 40px auto;
+}
+
+.image3 {
+  margin-top: 15px;
 }
 
 
