@@ -14,6 +14,13 @@ img {
   display: block;
 }
 
+footer {
+  color: white;
+  width: 100%;
+  height: 200px;
+  background-color: #000;
+}
+
 .button {
   padding: 10px 30px;
   font-weight: bold;
@@ -325,7 +332,89 @@ img {
   padding: 60px 0;
 }
 
+/* footer */
 
+footer h3 {
+  font-size: 18px;
+  line-height: 24px;
+  color:#FEC63E;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 0 0 0;
+}
+
+footer h3:after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  margin: 5px 0 10px;
+  background-color: #FEC63E;
+}
+
+footer .historia, 
+footer .contato, 
+footer .redes-sociais {
+  padding: 20px 0px;
+}
+
+footer .historia p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer .contato ul {
+  list-style-type: square;
+  padding: 0px 20px;
+}
+
+footer .contato ul li {
+  margin: 5px 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer .redes-sociais li {
+  display: inline-block;
+  width: 60px;
+  padding: 20px;
+  margin: 5px 5px 5px 0;
+  text-align: center;
+  border: 4px solid #FEC63E;
+  cursor: pointer;
+  transition: ease-in-out .2s; 
+}
+
+.facebook:hover, 
+.instagram:hover,
+ .twitter:hover {
+  background-color: #fff;
+}
+
+.facebook {
+  background: url(../img/redes-sociais/facebook.svg) no-repeat center;
+}
+
+.instagram {
+  background: url(../img/redes-sociais/instagram.svg) no-repeat center;
+}
+
+.twitter {
+  background: url(../img/redes-sociais/twitter.svg) no-repeat center;
+}
+
+
+
+.direitos {
+  width: 100%;
+  color: #000;
+  background: #FEC63E;
+
+  padding: 20px 0;
+
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
 
 
 
