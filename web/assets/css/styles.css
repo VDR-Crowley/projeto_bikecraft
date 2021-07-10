@@ -520,10 +520,27 @@ footer .redes-sociais li {
 }
 
 section img {
-  margin: 40px 0 20px;
+  margin: 10px 0 10px;
 }
 
 .qualidade-sobre {
-  margin-bottom: 80px;
+  margin-bottom: 150px;
+  position: relative;
+}
+
+.qualidade-sobre:after {
+  content: "";
+    width: 734px;
+    height: 83px;
+    display: block;
+    background: url(../img/linhas.png) no-repeat center;
+    position: absolute;
+    top: 280px;
+    left: 115px;
+    z-index: -1;
+}
+
+.qualidade-sobre .quote-subtitulo {
+  margin: 10px 0 57px;
 }
 
