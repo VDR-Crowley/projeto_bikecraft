@@ -85,6 +85,10 @@ footer {
   color: #fff;
 }
 
+.header_menu ul li a.menu_ativo {
+  color: #fff;
+}
+
 /* Indrodução */
 
 .introducao {
@@ -458,10 +462,6 @@ footer .redes-sociais li {
 .contato-img {
   background-image: url('../img/bgs/bg-contato.jpg');  
 }
-/*
-.sobre-img {
-  background-image: url('../img/bgs/bg-sobre.jpg');  
-}*/
 
 .bg-intro h1 {
   font-size: 48px;
@@ -501,15 +501,11 @@ footer .redes-sociais li {
 .sobre-1 p {
   font-size: 18px;
   margin-top: 10px;
-  line-height: 24px;
-}
-
-.sobre-2 {
-  margin-left: 50px;
+  line-height: 25px;
 }
 
 .sobre-2 ul {
-  margin-left: 15px;
+  margin-left: 20px;
   font-size: 18px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -544,3 +540,118 @@ section img {
   margin: 10px 0 57px;
 }
 
+
+
+
+/* PAGINA PRODUTOS */
+
+.passeios {
+  padding: 60px 0;
+}
+
+.passeio-img-1 {
+  background: url('../img/passeio.jpg') no-repeat bottom center;
+  background-size: cover;
+  height: 280px;
+  text-align: center;
+}
+
+.passeio-img-1 h2 {
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+
+  padding-top: 100px;
+}
+
+.passeio-img-1 h2:before, .passeio-img-1 h2:after {
+  content: " ";
+  display: block;
+  width: 80px;
+  height: 3px;
+  margin: 14px auto 10px auto;
+  background-color: #fff;
+}
+
+.passeio-icon {
+  height: 280px;
+  background: #000 url('../img/produtos/icones/passeio.svg') no-repeat center; 
+}
+
+.passeios .passeio-desc {
+  height:280px;
+  margin-top: 10px;
+  color: #fff;
+  background: #000;
+}
+
+.passeios .passeio-desc p {
+  font-size: 14px;
+  line-height: 20px;
+  padding: 20px 30px 0px;
+}
+
+.passeios .passeio-desc p:nth-child(2) {
+  padding-bottom: 60px;
+}
+
+.desc-passeio {
+  width: 100%;
+  margin: 0;
+  background-color: #fff;
+  text-transform: uppercase;
+}
+
+.desc-1 {
+  width: 230px;
+  height: 50px;
+  background-color: #FEC63E;
+  text-align: center;
+  font-weight: bold;
+  padding: 15px 0 0;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.desc-2 {
+  width: 230px;
+  height: 50px;
+  background-color: #FEC63E;
+  text-align: center;
+  font-weight: bold;
+  padding: 15px 0 0;
+  margin-left: 0px;
+  margin-right: 0px;
+  border-left: 2px solid #000;
+}
+
+.desc-3 {
+  width: 230px;
+  height: 50px;
+  background-color: #FEC63E;
+  text-align: center;
+  font-weight: bold;
+  padding: 15px 0 0;
+  margin-left: 0px;
+  margin-right: 0px;
+  border-top: 2px solid #000;
+}
+
+.desc-4 {
+  width: 230px;
+  height: 50px;
+  background-color: #FEC63E;
+  text-align: center;
+  font-weight: bold;
+  padding: 15px 0 0;
+  margin-left: 0px;
+  margin-right: 0px;
+  border-top: 2px solid #000;
+  border-left: 2px solid #000;
+}
+
+.quote-produtos {
+  background: url('../img/bgs/bg-footer2.jpg');
+}
