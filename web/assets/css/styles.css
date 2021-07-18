@@ -21,6 +21,31 @@ footer {
   background-color: #000;
 }
 
+form {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px 5px;
+  margin-bottom: 20px;
+  display: block;
+  font-size: 18px;
+  color: white;
+  background-color: #000;
+  border: 3px solid #FEC63E;
+}
+
+input:focus {
+  outline: 1px solid #fff;
+}
+
 .button {
   padding: 10px 30px;
   font-weight: bold;
@@ -546,7 +571,7 @@ section img {
 /* PAGINA PRODUTOS */
 
 .passeios {
-  padding: 60px 0;
+  padding: 60px 0 0;
 }
 
 .passeio-img-1 {
@@ -588,19 +613,18 @@ section img {
 }
 
 .passeios .passeio-desc p {
-  font-size: 14px;
-  line-height: 20px;
-  padding: 20px 30px 0px;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 15px 30px 0px;
 }
 
 .passeios .passeio-desc p:nth-child(2) {
-  padding-bottom: 60px;
+  padding-bottom: 25px;
 }
 
 .desc-passeio {
   width: 100%;
   margin: 0;
-  background-color: #fff;
   text-transform: uppercase;
 }
 
@@ -613,6 +637,9 @@ section img {
   padding: 15px 0 0;
   margin-left: 0px;
   margin-right: 0px;
+  color: #000;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 .desc-2 {
@@ -620,7 +647,10 @@ section img {
   height: 50px;
   background-color: #FEC63E;
   text-align: center;
-  font-weight: bold;
+  font-weight: bold;  
+  color: #000;
+  font-size: 14px;
+  line-height: 20px;
   padding: 15px 0 0;
   margin-left: 0px;
   margin-right: 0px;
@@ -633,6 +663,9 @@ section img {
   background-color: #FEC63E;
   text-align: center;
   font-weight: bold;
+  color: #000;
+  font-size: 14px;
+  line-height: 20px;
   padding: 15px 0 0;
   margin-left: 0px;
   margin-right: 0px;
@@ -645,6 +678,9 @@ section img {
   background-color: #FEC63E;
   text-align: center;
   font-weight: bold;
+  color: #000;
+  font-size: 14px;
+  line-height: 20px;
   padding: 15px 0 0;
   margin-left: 0px;
   margin-right: 0px;
@@ -654,4 +690,124 @@ section img {
 
 .quote-produtos {
   background: url('../img/bgs/bg-footer2.jpg');
+}
+
+.esporte-img-1 {
+  background: url('../img/foto-titulo-1.png') no-repeat bottom center;
+  background-size: cover;
+  height: 280px;
+  text-align: center;
+}
+
+.esporte-img-1 h2 {
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+
+  padding-top: 100px;
+}
+
+.esporte-img-1 h2:before, .esporte-img-1 h2:after {
+  content: " ";
+  display: block;
+  width: 80px;
+  height: 3px;
+  margin: 14px auto 10px auto;
+  background-color: #fff;
+}
+
+.esporte-icon {
+  height: 280px;
+  background: #000 url('../img/produtos/icones/esporte.svg') no-repeat center; 
+}
+
+
+.retro-img-1 {
+  background: url('../img/retro-2.jpg') no-repeat bottom center;
+  background-size: cover;
+  height: 280px;
+  text-align: center;
+}
+
+.retro-img-1 h2 {
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+
+  padding-top: 100px;
+}
+
+.retro-img-1 h2:before, .retro-img-1 h2:after {
+  content: " ";
+  display: block;
+  width: 80px;
+  height: 3px;
+  margin: 14px auto 10px auto;
+  background-color: #fff;
+}
+
+.retro-icon {
+  height: 280px;
+  background: #000 url('../img/produtos/icones/retro.svg') no-repeat center; 
+}
+
+.orcamento-form {
+  width: 100%;
+  background: #000;
+  color: #fff;
+  margin-top: 60px;
+  padding: 0px 0 60px
+}
+
+.orcamento-form .quote-subtitulo {
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.orcamento-form .quote-subtitulo h2 {
+  font-weight: bold;
+  color: #FEC63E;
+}
+
+.orcamento-form .quote-subtitulo h2:after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  margin: 15px auto;
+  background-color: #FEC63E;
+}
+
+.orcamento-form fieldset {
+  margin-top: 20px;
+  border: 0px solid #FEC63E;
+}
+
+.orcamento-form form {
+  padding: 20px;  
+}
+
+.orcamento-form .button {
+  cursor: pointer;
+  width: 50%;
+}
+
+.quote-produtos {
+  height: 280px;
+}
+
+.quote-produtos .quote-externo {
+  margin: 0px auto 40px;
+}
+
+.quote-produtos blockquote {
+  padding: 80px 0;
 }
