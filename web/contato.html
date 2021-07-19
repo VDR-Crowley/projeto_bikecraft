@@ -30,7 +30,7 @@
           <li><a href="sobre.html">Sobre</a></li>
           <li><a href="produtos.html">Produtos</a></li>
           <li><a href="portfolio.html">Portfólio</a></li>
-          <li><a href="contato.html">Contato</a></li>
+          <li><a href="contato.html" class="menu_ativo">Contato</a></li>
           <li><a href="blog.html">Blog</a></li>
         </ul>
       </nav>
@@ -50,14 +50,61 @@
     </div>
   </section>
 
+  <!-- ORÇAMENTO -->
+  <section class="contato-form container">
 
-  <div class="quote-footer">
-    <blockquote class="quote-externo">
-      <p>"Não tenha nada em sua casa que você
-        não considera útil ou acredita ser bonito"</p>
-      <cite>william morris</cite>
-    </blockquote>
-  </div>
+    <fieldset class="grid-8">
+      <legend></legend>
+
+      <form id="form_orcamento" action="#" method="post" enctype="multipart/form-data">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Name">
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" placeholder="E-mail">
+
+        <label for="menssagem">Menssagem:</label>
+        <textarea name="men" id="menssagem" cols="30" rows="10"></textarea>
+
+        <input type="submit" value="Orçamento" class="button">
+      </form>
+    </fieldset>
+
+    <div class="info-form grid-8">
+
+      <div class="dados">
+        <h2>Dados</h2>
+        <p>+55 11 98888-8888</p>
+        <p>orçamento@bikcraft.com.br</p>
+        <p>Rua ali perto - São Paulo - Guaianases</p>
+      </div>
+
+      <div class="redes-sociais">
+        <h2>Redes sociais</h2>
+        <ul>
+          <li class="facebook">
+            <a href="https://www.facebook.com/" target="_blank"></a>
+          </li>
+
+          <li class="instagram">
+            <a href="https://www.instagram.com/" target="_blank"></a>
+          </li>
+
+          <li class="twitter">
+            <a href="https://www.twitter.com/" target="_blank"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </section>
+
+
+  <section class="map container">
+    <a href="https://www.google.com/maps/search/google+maps/@-23.5584552,-46.7834546,10z/data=!3m1!4b1" class="grid-16" target="_blank">
+      <img src="./assets/img/img-map.jpg" alt="localização bikcraft">
+    </a>
+  </section>
 
   <footer>
     <div class="container">
@@ -79,15 +126,15 @@
         <h3>redes sociais</h3>
         <ul>
           <li class="facebook">
-            <a href="#"></a>
+            <a href="https://www.facebook.com/" target="_blank"></a>
           </li>
 
           <li class="instagram">
-            <a href="#"></a>
+            <a href="https://www.instagram.com/" target="_blank"></a>
           </li>
 
           <li class="twitter">
-            <a href="#"></a>
+            <a href="https://www.twitter.com/" target="_blank"></a>
           </li>
         </ul>
       </div>
