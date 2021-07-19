@@ -854,3 +854,41 @@ section img {
 .opcoes ul li:nth-child(odd) {
   background-color: #292929;
 }
+
+
+/* PAGINA PORTFOLIO */
+
+.quote-port-into {
+  text-align: center;
+}
+
+.quote-port-into .quote-externo {
+  width: 420px;
+  color: #000;
+}
+
+.quote-port-into .quote-externo p{
+  font-size: 18px;
+  line-height: 24px;
+  width: 430px
+}
+
+.portfolio {
+  padding: 60px 0;
+  background: #000;
+}
+
+
+.quote-portfolio blockquote {
+  padding:70px 0;
+}
+
+.quote-portfolio .quote-externo {
+  margin: 0px auto 40px;
+}
+
+.quote-portfolio {
+  height: 280px;
+  background: url("../img/bgs/bg-footer3.jpg") no-repeat center;
+  background-size: cover;
+}
