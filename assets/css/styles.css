@@ -1162,8 +1162,16 @@ section img {
     margin: 5px 0;
   }
 
+  .dados, .opcoes, .info-form .redes-sociais {
+    margin: 45px 0px 45px 0px;
+  }
+
   .orcamento-form .button {
     cursor: pointer;
+    width: 70%;
+  }
+
+  .contato-form .button {
     width: 70%;
   }
 }
