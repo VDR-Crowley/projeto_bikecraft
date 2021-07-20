@@ -983,10 +983,67 @@ section img {
     height: auto;
   }
   
+  /* Qualidade */
+  .qualidade:after {
+    display: none;
+  }
+
   /* footer */
   .footer {
     height: auto;  
   }
+
+  footer .contato ul {
+    padding: 0px 0px;
+  }
+
+  footer .redes-sociais li {
+    width: 30px;
+    padding: 18px;
+  }
+
+  /* pagina produto */
+  
+  .passeios .passeio-desc {
+    height:200px;
+    margin-top: 7px;
+  }
+
+  .passeios .passeio-desc p {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 30px 0px;
+  }
+
+  .desc-1 {
+    width: 182px;
+    height: 40px;
+    padding: 10px 0 0;
+  }
+  
+  .desc-2 {
+    width: 182px;
+    height: 40px;
+    padding: 10px 0 0;
+  }
+  
+  .desc-3 {
+    width: 182px;
+    height: 40px;
+    padding: 10px 0 0;
+  }
+  
+  .desc-4 {
+    width: 182px;
+    height: 40px;
+    padding: 10px 0 0;
+  }
+
+  .orcamento-form .button {
+    cursor: pointer;
+    width: 60%;
+  }
+  
 }
 
 /* Estilos para smartphones */
@@ -1023,18 +1080,91 @@ section img {
 
   /* introdução */
   .introducao {
-    height: 570px;
+    height: 450px;
     margin-top: 0;
     background: url('../img/bg-intro-mobile.jpg') no-repeat center;
     background-size: cover;
   }
 
   .introducao h1 {
-    padding-top: 20px;
+    padding-top: 10px;
+    font-size: 36px;
   }
+
+  /* Qualidade */
+  .qualidade:after {
+    display: none;
+  }
+
+  /* call */
+  .call-to-action {
+    margin-top: 20px;
+    padding: 20px 0;
+  }
+  
 
   /* footer */
   .footer {
     height: auto;  
   }
+
+  /* Pagina sobre */
+  .bg-intro {
+    margin-top: 0;
+  }
+
+  .qualidade-sobre {
+    margin-bottom: 0px
+  }
+
+  /* pagina produtos */
+
+  .passeios .passeio-desc {
+    height:325px;
+    margin-top: 0px;
+  }
+
+  .passeios .passeio-desc p {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px 20px 0px;
+  }
+
+  .desc-1 {
+    width: 100%;
+    height: 40px;
+    padding: 10px 0 0;
+    margin: 5px 0;
+  }
+  
+  .desc-2 {
+    width: 100%;
+    height: 40px;
+    padding: 10px 0 0;
+    border-left: 0;
+    margin: 5px 0;
+  }
+  
+  .desc-3 {
+    width: 100%;
+    height: 40px;
+    border-top: 0;
+    padding: 10px 0 0;
+    margin: 5px 0;
+  }
+  
+  .desc-4 {
+    width: 100%;
+    height: 40px;
+    padding: 10px 0 0;
+    border-left: 0;
+    border-top: 0;
+    margin: 5px 0;
+  }
+
+  .orcamento-form .button {
+    cursor: pointer;
+    width: 70%;
+  }
 }
+
