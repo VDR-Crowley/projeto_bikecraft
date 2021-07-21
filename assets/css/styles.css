@@ -1091,9 +1091,8 @@ section img {
     font-size: 36px;
   }
 
-  /* Qualidade */
-  .qualidade:after {
-    display: none;
+  card .passeio-desc {
+    height: 110px;
   }
 
   /* call */
