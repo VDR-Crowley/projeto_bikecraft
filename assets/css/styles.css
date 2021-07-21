@@ -554,14 +554,14 @@ section img {
 
 .qualidade-sobre:after {
   content: "";
-    width: 734px;
-    height: 83px;
-    display: block;
-    background: url(../img/linhas.png) no-repeat center;
-    position: absolute;
-    top: 280px;
-    left: 115px;
-    z-index: -1;
+  width: 734px;
+  height: 83px;
+  display: block;
+  background: url(../img/linhas.png) no-repeat center;
+  position: absolute;
+  top: 280px;
+  left: 115px;
+  z-index: -1;
 }
 
 .qualidade-sobre .quote-subtitulo {
@@ -1091,12 +1091,13 @@ section img {
     font-size: 36px;
   }
 
-  card .passeio-desc {
-    height: 110px;
-  }
-
   .card .passeio-desc p {
     max-width: 230px;
+  }
+
+  /* Qualidade */
+  .qualidade:after {
+    display: none;
   }
 
   /* call */
