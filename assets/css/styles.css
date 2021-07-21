@@ -1124,7 +1124,7 @@ section img {
   /* pagina produtos */
 
   .passeios .passeio-desc {
-    height:325px;
+    height:230px;
     margin-top: 0px;
   }
 
@@ -1135,35 +1135,47 @@ section img {
   }
 
   .desc-1 {
-    width: 100%;
+    width: 148px;
     height: 40px;
     padding: 10px 0 0;
-    margin: 5px 0;
+    margin: 0px 0;
+    display: inline-block;
   }
   
   .desc-2 {
-    width: 100%;
+    width: 147px;
     height: 40px;
     padding: 10px 0 0;
     border-left: 0;
-    margin: 5px 0;
+    margin: 0px 0;
+    display: inline-block;
   }
   
   .desc-3 {
-    width: 100%;
+    width: 148px;
     height: 40px;
     border-top: 0;
     padding: 10px 0 0;
-    margin: 5px 0;
+    margin: 0px 0px;
+    display: inline-block;
   }
   
   .desc-4 {
-    width: 100%;
+    width: 147px;
     height: 40px;
-    padding: 10px 0 0;
+    padding: 10px 0px 0;
     border-left: 0;
     border-top: 0;
     margin: 5px 0;
+    display: inline-block;
+  }
+
+  .quote-port-into .quote-externo {
+    width: 300px;
+  }
+
+  .quote-port-into .quote-externo p{
+    width: auto;
   }
 
   .dados, .opcoes, .info-form .redes-sociais {
