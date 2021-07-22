@@ -412,12 +412,6 @@ footer .redes-sociais li {
   transition: ease-in-out .2s; 
 }
 
-.facebook:hover, 
-.instagram:hover,
- .twitter:hover {
-  background-color: #fff;
-}
-
 .facebook {
   background: url(../img/redes-sociais/facebook.svg) no-repeat center;
 }
@@ -430,6 +424,12 @@ footer .redes-sociais li {
   background: url(../img/redes-sociais/twitter.svg) no-repeat center;
 }
 
+
+.facebook:hover, 
+.instagram:hover,
+.twitter:hover {
+  background-color: #fff;
+}
 
 
 .direitos {
