@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="./assets/css/reset.css">
   <link rel="stylesheet" href="./assets/css/grid.css">
   <link rel="stylesheet" href="./assets/css/styles.css">
+  <script>document.documentElement.classList.add("js");</script>
 </head>
 
 <body>
@@ -42,18 +43,18 @@
 
   <section class="introducao">
     <div class="container">
-      <h1>Bicicletas feitas a mão</h1>
-      <blockquote class="quote-externo">
+      <h1 data-anime="400" class="fadeInDown">Bicicletas feitas a mão</h1>
+      <blockquote data-anime="800" class="fadeInDown quote-externo">
         <p>"Não tenha nada em sua casa que você
           não considera útil ou acredita ser bonito"</p>
         <cite>william morris</cite>
       </blockquote>
 
-      <a href="produtos.html" class="button">Orçamento</a>
+      <a data-anime="1200" href="produtos.html" class="button">Orçamento</a>
     </div>
   </section>
 
-  <section class="secao-produtos">
+  <section data-anime="1600" class="fadeInDown secao-produtos">
     <div class="container">
       <div class="quote-subtitulo">
         <h2>Produtos</h2>
@@ -103,7 +104,7 @@
 
   </section>
 
-  <section class="secao-black">
+  <section data-anime="2000" class="fadeInLeft secao-black">
     <div class="container">
       <div class="quote-subtitulo">
         <h2>Portfólio</h2>
@@ -220,6 +221,9 @@
       </div>
     </div>
   </footer>
+
+  <script src="assets/js/simple-anime.js"></script>
+  <script src="assets/js/script.js"></script>
 
 </body>
 

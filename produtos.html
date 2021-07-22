@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="./assets/css/reset.css">
   <link rel="stylesheet" href="./assets/css/grid.css">
   <link rel="stylesheet" href="./assets/css/styles.css">
+  <script>document.documentElement.classList.add("js");</script>
 </head>
 
 <body>
@@ -42,16 +43,15 @@
 
   <section class="bg-intro produtos-img">
     <div class="container">
-      <h1>Produtos</h1>
-      <div class="borda"></div>
-      <p class="quote-intro">
+      <h1 data-anime="400" class="fadeInDown">Produtos</h1>
+      <p data-anime="800" class="fadeInDown quote-intro">
         Conheça todos os nossos produtos
       </p>
     </div>
   </section>
 
 
-  <section class="passeios container">
+  <section data-anime="1200" class="fadeInDown passeios container">
     <div class="passeio-img-1 grid-11">
       <h2>passeio</h2>
     </div>
@@ -234,6 +234,9 @@
       </div>
     </section>
   </footer>
+
+  <script src="assets/js/simple-anime.js"></script>
+  <script src="assets/js/script.js"></script>
 
 </body>
 

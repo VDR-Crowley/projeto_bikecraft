@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="./assets/css/reset.css">
   <link rel="stylesheet" href="./assets/css/grid.css">
   <link rel="stylesheet" href="./assets/css/styles.css">
+  <script>document.documentElement.classList.add("js");</script>
 </head>
 
 <body>
@@ -42,28 +43,36 @@
 
   <section class="bg-intro portfolio-img">
     <div class="container">
-      <h1>Portfólio</h1>
-      <div class="borda"></div>
-      <p class="quote-intro">
+      <h1 data-anime="400" class="fadeInDown">Portfólio</h1>
+      <p data-anime="800" class="fadeInDown quote-intro">
         Conheça nossos projetos que amamos móstrar
       </p>
     </div>
   </section>
 
 
-  <section class="quote-port-into">
+  <section data-anime="1200" class="fadeInDown quote-port-into" data-slide="quote">
     <blockquote class="quote-externo">
-      <p>"No mundo atual, a continua expansão de nossa
+      <p>“No mundo atual, a continua expansão de nossa
         atividade cumpre um papel essencial na formulação de
-        gestão inovadora da qual fazemos parte"</p>
+        gestão inovadora da qual fazemos parte”</p>
       <cite>Barbara Moss</cite>
+    </blockquote>
+
+    <blockquote class="quote-externo">
+      <p>“Aqueles que ainda não possuem uma Bikcraft, não sabem o que estão perdendo. A precisão é absurda e a velocidade transcendental.”</p>
+      <cite>Jhony Rato</cite>
+    </blockquote>
+
+    <blockquote class="quote-externo">
+      <p>“Pedalar sempre foi a minha paixão, o que o pessoal da Bikcraft fez foi intensificar o meu amor por esta atividade. Recomendo à todos que amo.”</p>
+      <cite>Bernardo</cite>
     </blockquote>
   </section>
 
-  <section class="portfolio">
-    <div class="container">
+  <section data-anime="1600" class=" fadeInDown portfolio">
+    <div class="container" data-slide="portfolio">
       <ul class="galeria">
-
         <li class="image1 grid-8">
           <img src="./assets/img/retro-2.jpg" alt="bike retro">
         </li>
@@ -73,7 +82,18 @@
         <li class="image3 grid-16">
           <img src="./assets/img/passeio-2.jpg" alt="bike retro">
         </li>
+      </ul>
 
+      <ul class="galeria">
+        <li class="image1 grid-8">
+          <img src="./assets/img/foto.jpg" alt="bike retro">
+        </li>
+        <li class="image2 grid-8">
+          <img src="./assets/img/foto2.jpg" alt="bike retro">
+        </li>
+        <li class="image3 grid-16">
+          <img src="./assets/img/passeio-2.jpg" alt="bike retro">
+        </li>
       </ul>
     </div>
   </section>
@@ -126,7 +146,9 @@
       </div>
     </section>
   </footer>
-
+  <script src="assets/js/simple-anime.js"></script>
+  <script src="assets/js/simple-slide.js"></script>
+  <script src="assets/js/script.js"></script>
 
 </body>
 

@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="./assets/css/reset.css">
   <link rel="stylesheet" href="./assets/css/grid.css">
   <link rel="stylesheet" href="./assets/css/styles.css">
+  <script>document.documentElement.classList.add("js");</script>
 </head>
 
 <body>
@@ -42,16 +43,15 @@
 
   <section class="bg-intro contato-img">
     <div class="container">
-      <h1>Contato</h1>
-      <div class="borda"></div>
-      <p class="quote-intro">
+      <h1 data-anime="400" class="fadeInDown">Contato</h1>
+      <p data-anime="800" class="fadeInDown quote-intro">
         Tire suas duvidas com a gente
       </p>
     </div>
   </section>
 
   <!-- ORÇAMENTO -->
-  <section class="contato-form container">
+  <section data-anime="800" class="fadeInDown contato-form container">
 
     <fieldset class="grid-8">
       <legend></legend>
@@ -100,7 +100,7 @@
   </section>
 
 
-  <section class="map container">
+  <section data-anime="1200" class="fadeInDown map container">
     <a href="https://www.google.com/maps/search/google+maps/@-23.5584552,-46.7834546,10z/data=!3m1!4b1" class="grid-16" target="_blank">
       <img src="./assets/img/img-map.jpg" alt="localização bikcraft">
     </a>
@@ -146,6 +146,9 @@
       </div>
     </section>
   </footer>
+
+  <script src="assets/js/simple-anime.js"></script>
+  <script src="assets/js/script.js"></script>
 
 </body>
 

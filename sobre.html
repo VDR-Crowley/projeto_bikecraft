@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="./assets/css/reset.css">
   <link rel="stylesheet" href="./assets/css/grid.css">
   <link rel="stylesheet" href="./assets/css/styles.css">
+  <script>document.documentElement.classList.add("js");</script>
 </head>
 
 <body>
@@ -42,9 +43,8 @@
 
   <section class="bg-intro sobre-img">
     <div class="container">
-      <h1>Sobre</h1>
-      <div class="borda"></div>
-      <p class="quote-intro">
+      <h1 data-anime="400" class="fadeInDown">Sobre</h1>
+      <p data-anime="800" class="fadeInDown quote-intro">
         Conheça mais sobre a bikcraft
       </p>
     </div>
@@ -52,7 +52,7 @@
 
 
 
-  <section class="sobres">
+  <section data-anime="1200" class="fadeInDown sobres">
     <div class="container">
       <div class="sobre-1 grid-10">
         <h2>História, Missão e Visão</h2>
@@ -77,12 +77,12 @@
     </div>
   </section>
 
-  <section class="container">
+  <section data-anime="1600" class="fadeInUp container">
     <img src="./assets/img/equipe-bikcraft.jpg" class="grid-16" alt="Equipe bikcraft">
   </section>
 
 
-  <section class="qualidade container qualidade-sobre">
+  <section data-anime="2000" class="fadeInDown qualidade container qualidade-sobre">
     <div class="quote-subtitulo">
       <h2>Qualidade</h2>
     </div>
@@ -90,7 +90,7 @@
     <img src="./assets/img/logos/bikcraft-qualidade.svg" alt="Bikcraft">
 
 
-    <ul class="qualidades_lista">
+    <ul data-anime="2000" class="fadeInLeft qualidades_lista">
       <li class="grid-1-3">
         <h3>Durabilidade</h3>
         <p>
@@ -160,6 +160,9 @@
       </div>
     </section>
   </footer>
+
+  <script src="assets/js/simple-anime.js"></script>
+  <script src="assets/js/script.js"></script>
 
 </body>
 
