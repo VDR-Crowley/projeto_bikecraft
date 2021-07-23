@@ -1249,3 +1249,18 @@ section img {
   transform: none;
   transition: transform .8s, opacity .8s;
 }
+
+/* form macete para evitar span */
+.nao-aparece {
+  visibility: hidden;
+  position: absolute;
+  height: 0;
+}
+
+#form-sucesso {
+  color: #33aa39;
+}
+
+#form-erro {
+  color: #f64540;
+}
