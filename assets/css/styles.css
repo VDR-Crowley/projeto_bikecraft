@@ -404,7 +404,6 @@ footer .contato ul li {
 footer .redes-sociais li {
   display: inline-block;
   width: 60px;
-  padding: 25px;
   margin: 5px 5px 5px 0;
   text-align: center;
   border: 4px solid #FEC63E;
@@ -412,8 +411,17 @@ footer .redes-sociais li {
   transition: ease-in-out .2s; 
 }
 
+footer .redes-sociais li a{
+  display: inline-block;
+  padding: 25px;
+  padding-bottom: 30px;
+  text-align: center;
+  cursor: pointer;
+  transition: ease-in-out .2s; 
+}
+
 .facebook {
-  background: url(../img/redes-sociais/facebook.svg) no-repeat center;
+  background: url('../img/redes-sociais/facebook.svg') no-repeat center;
 }
 
 .instagram {
@@ -942,17 +950,6 @@ section img {
   padding: 0px 0 20px 0;
 }
 
-.redes-sociais li {
-  display: inline-block;
-  width: 60px;
-  padding: 25px;
-  margin: 5px 5px 5px 0;
-  text-align: center;
-  border: 4px solid #FEC63E;
-  cursor: pointer;
-  transition: ease-in-out .2s; 
-}
-
 .contato-form .facebook:hover, 
 .contato-form .instagram:hover,
 .contato-form .twitter:hover {
@@ -1108,6 +1105,11 @@ section img {
   .qualidade-sobre {
     margin-bottom: 0px
   }
+
+  footer .redes-sociais li a{
+    padding-bottom: 25px;
+  }
+
 
   /* pagina produtos */
 
